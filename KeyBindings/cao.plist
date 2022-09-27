@@ -1,0 +1,76 @@
+{
+    "j" = "selectNextMessageRow:";
+    "k" = "selectPreviousMessageRow:";
+    "n" = "nextThread:";
+    "p" = "previousThread:";
+
+    "J" = ("makeFirstResponder:", "mainOutline", "moveDownAndModifySelection:");
+    "K" = ("makeFirstResponder:", "mainOutline", "moveUpAndModifySelection:");
+
+    "@J" = "selectNextMailboxRow:";
+    "~J" = "selectNextCountedMailbox:";
+    "@K" = ("selectPreviousMailboxRow:", "togglePreview:");
+    "~K" = "selectPreviousCountedMailbox:";
+
+    "P" = "scrollPageUp:";
+    ":" = "scrollPageDown:";
+
+    "h" = "collapseThread:";
+    "l" = "expandThread:";
+
+    "g" = {
+        "g" = "selectFirstMessageRow:";
+        "s" = ( "goToMailbox:", "FLAGGED" );
+        "d" = ( "goToMailbox:", "DRAFTS" );
+        "i" = ( "goToMailbox:", "INBOX" );
+        "t" = ( "goToMailbox:", "SENT" );
+    };
+    "G" = "selectLastMessageRow:";
+
+    " " = "scrollPageDown:";
+    "⇧ " = "scrollPageUp:";
+
+    "u" = "toggleReadState:";
+
+    "z" = "undo:";
+    "Z" = "redo:";
+
+    "\U007F" = "backInHistory:"; // backspace
+    "$\U007F" = "forwardInHistory:"; // shift + backspace
+    "@\U007F" = "deleteMessage:"; // command + backspace
+    "@\U000A" = "send:"; // command + return
+    "@\U000D" = "send:"; // command + enter
+
+    "/" = "searchAllMessages:";
+    "e" = "archive:";
+
+    "v" = "moveToMailbox:";
+    ";" = "goToMailbox:";
+
+    "s" = "toggleFlag:";
+    "!" = "moveToJunk:";
+    "R" = "reply:";
+    "r" = "replyAll:";
+    "f" = "forwardMessage:";
+    "#" = "deleteMessage:";
+    "c" = "newMessage:";
+
+    "L" = "loadImagesOnce:";
+    "O" = "previousAlternative:";
+    "o" = "nextAlternative:";
+    "d" = "saveAttachments:";
+    "T" = "showThread:";
+
+    "@S" = "showSignatures:";
+    "@I" = "showIdentities:";
+    "@M" = "toggleMarkdown:";
+
+    "8" = ("makeFirstResponder:", "correspondenceOutline"); // move focus to correspondece list
+    "9" = ("makeFirstResponder:", "mainOutline"); // move focus to message list
+    "0" = ("makeFirstResponder:", "messageView"); // move focus to message view
+
+    "@h" = ("makeFirstResponder:", "mailboxesOutline"); // move focus to mailbox list
+    "@j" = ("makeFirstResponder:", "correspondenceOutline"); // move focus to correspondece list
+    "@k" = ("makeFirstResponder:", "mainOutline"); // move focus to message list
+    "@l" = ("makeFirstResponder:", "messageView"); // move focus to message view
+}
